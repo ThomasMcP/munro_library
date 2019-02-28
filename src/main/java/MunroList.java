@@ -60,12 +60,16 @@ public class MunroList {
     }
 
     public ArrayList<Munro> getTypeOfMunros(String type) {
-        ArrayList<Munro> selectedMunros = new ArrayList<>();
-        for (Munro munro: munroList){
-            if (munro.getHillCategory() == type ){
-                selectedMunros.add(munro);
-            }
+//        if condition handles empty string input and defaults to MUN.
+        if (type == "") {
+            type = "MUN";
         }
+            ArrayList<Munro> selectedMunros = new ArrayList<>();
+            for (Munro munro: munroList){
+                if (munro.getHillCategory() == type){
+                    selectedMunros.add(munro);
+                }
+            }
         return selectedMunros;
     }
 }

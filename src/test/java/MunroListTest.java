@@ -13,6 +13,7 @@ public class MunroListTest {
     Munro munro4;
     Munro munro5;
     Munro munro6;
+    Munro munro7;
     MunroList munroList;
 
     @Before
@@ -23,7 +24,6 @@ public class MunroListTest {
         munro4 = new Munro("Ben Lomond", 974, "MUN", "NN773308");
         munro5 = new Munro("Ben More", 1174, "MUN", "NN773308");
         munro6 = new Munro("Stob Binnein - Stob Coire an Lochain", 1068, "TOP", "NN438220");
-
         munroList = new MunroList();
     }
 
@@ -127,7 +127,18 @@ public class MunroListTest {
         assertEquals(1, resultTop.size());
         ArrayList resultMun = munroList.getTypeOfMunros("MUN");
         assertEquals(5, resultMun.size());
-        
+    }
+
+    @Test
+    public void defaultIfMunroTypeNotGiven(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        ArrayList resultNonInput = munroList.getTypeOfMunros("");
+        assertEquals(5, resultNonInput.size());
     }
 
 
