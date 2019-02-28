@@ -17,6 +17,21 @@ public class MunroTest {
         assertEquals("Ben Chonzie", munro.getName());
     }
 
+    @Test
+    public void munroHasHeight(){
+        assertEquals(931, munro.getHeight());
+    }
+
+    @Test
+    public void munroHasHillCategory(){
+        assertEquals("MUN", munro.getHillCategory());
+    }
+
+    @Test
+    public void munroHasGridReference(){
+        assertEquals("NN773308", munro.getGridReference());
+    }
+
 
 
 
