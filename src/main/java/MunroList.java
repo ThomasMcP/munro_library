@@ -4,8 +4,8 @@ public class MunroList {
 
     private ArrayList<Munro> munroList;
 
-    public MunroList(ArrayList<Munro> munroList) {
-        this.munroList = munroList;
+    public MunroList() {
+        this.munroList = new ArrayList<>();
     }
 
     public ArrayList<Munro> getMunroList() {
@@ -15,4 +15,5 @@ public class MunroList {
     public void setMunroList(ArrayList<Munro> munroList) {
         this.munroList = munroList;
     }
-}
+
+
