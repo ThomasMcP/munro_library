@@ -58,6 +58,16 @@ public class MunroList {
         }
         return munrosOverLimit;
     }
+
+    public ArrayList<Munro> getTypeOfMunros(String type) {
+        ArrayList<Munro> selectedMunros = new ArrayList<>();
+        for (Munro munro: munroList){
+            if (munro.getHillCategory() == type ){
+                selectedMunros.add(munro);
+            }
+        }
+        return selectedMunros;
+    }
 }
 
 

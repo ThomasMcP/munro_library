@@ -115,6 +115,21 @@ public class MunroListTest {
         assertEquals(2, munroList.getMunrosAboveLimit(1000).size());
     }
 
+    @Test
+    public void canGetMunrosOfSpecificType(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        ArrayList resultTop = munroList.getTypeOfMunros("TOP");
+        assertEquals(1, resultTop.size());
+        ArrayList resultMun = munroList.getTypeOfMunros("MUN");
+        assertEquals(5, resultMun.size());
+        
+    }
+
 
 
 }
