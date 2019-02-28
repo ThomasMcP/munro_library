@@ -65,7 +65,23 @@ public class MunroListTest {
         munroList.sortHeightDescending();
         assertEquals(5, munroList.getIndexOf(munro1));
         assertEquals(0, munroList.getIndexOf(munro5));
+    }
 
+    
+
+    @Test
+    public void canLimitResultsToTop10(){
+        for (int i = 0; i < 5; i++) {
+            munroList.addMunro(munro1);
+            munroList.addMunro(munro2);
+            munroList.addMunro(munro3);
+            munroList.addMunro(munro4);
+            munroList.addMunro(munro5);
+            munroList.addMunro(munro6);
+        }
+        assertEquals(30, munroList.getListSize());
+        assertEquals(0, munroList.getIndexOf(munro1));
+        assertEquals(10, munroList.limitToTenResults().size());
     }
 
 

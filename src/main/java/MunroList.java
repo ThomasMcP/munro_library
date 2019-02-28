@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -36,6 +37,16 @@ public class MunroList {
 
     public void sortHeightDescending() {
         munroList.sort(Comparator.comparing(Munro::getHeight).reversed());
+    }
+
+    public ArrayList<Munro> limitToTenResults() {
+        ArrayList<Munro> limitedResults = new ArrayList<>();
+        for (Munro munro: munroList) {
+            if (limitedResults.size() < 10) {
+                limitedResults.add(munro);
+            }
+        }
+        return limitedResults;
     }
 }
 
