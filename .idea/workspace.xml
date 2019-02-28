@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01f37d00-a440-4611-9b99-124944bbe0b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MunroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MunroTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="01f37d00-a440-4611-9b99-124944bbe0b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -79,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MunroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="155">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#105#106#0" expanded="true" />
@@ -89,7 +87,6 @@
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#613#614#0" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
@@ -498,7 +495,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/workspace.xml&#10;true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551360636681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551361430193" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -605,6 +602,12 @@
     <history-entry file="MunroTest_munroHasHillCategory - 2019.02.28 at 13h 29m 45s.xml">
       <configuration name="MunroTest.munroHasHillCategory" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MunroTest_munroHasGridReference - 2019.02.28 at 13h 30m 29s.xml">
+      <configuration name="MunroTest.munroHasGridReference" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MunroTest - 2019.02.28 at 13h 30m 38s.xml">
+      <configuration name="MunroTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="0" />
@@ -688,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MunroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="155">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#105#106#0" expanded="true" />
@@ -698,7 +701,6 @@
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
