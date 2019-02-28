@@ -54,6 +54,20 @@ public class MunroListTest {
         assertEquals(0, munroList.getIndexOf(munro1) );
     }
 
+    @Test
+    public void canSortHeightDescending(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        munroList.sortHeightDescending();
+        assertEquals(5, munroList.getIndexOf(munro1));
+        assertEquals(0, munroList.getIndexOf(munro5));
+
+    }
+
 
 
 }

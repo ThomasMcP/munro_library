@@ -33,6 +33,10 @@ public class MunroList {
     public void sortHeightAscending() {
         munroList.sort(Comparator.comparing(Munro::getHeight));
     }
+
+    public void sortHeightDescending() {
+        munroList.sort(Comparator.comparing(Munro::getHeight).reversed());
+    }
 }
 
 
