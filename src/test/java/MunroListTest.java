@@ -88,7 +88,16 @@ public class MunroListTest {
         assertEquals(10, munroList.limitToTenResults().size());
     }
 
-    @
+    @Test
+    public void canLimitSortWhenListLessThanTen(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        assertEquals(6, munroList.limitToTenResults().size());
+    }
 
     @Test
     public void canSortNameAscending(){
@@ -162,6 +171,18 @@ public class MunroListTest {
     }
 
     @Test
+    public void canGetMunrosInbetweenDefinedHeightValues(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        ArrayList selected = munroList.getMunrosBetweenMaxAndMinHeights(931, 974);
+        assertEquals(2, selected.size());
+    }
+
+    @Test
     public void canGetMunrosOfSpecificType(){
         munroList.addMunro(munro1);
         munroList.addMunro(munro2);
@@ -188,7 +209,4 @@ public class MunroListTest {
         ArrayList resultNonInput = munroList.getTypeOfMunros("");
         assertEquals(5, resultNonInput.size());
     }
-
-
-
 }
