@@ -21,7 +21,7 @@ public class MunroList {
     }
 
     public int getListSize(){
-        munroList.size();
+        return munroList.size();
     }
 }
 

@@ -31,6 +31,11 @@ public class MunroListTest {
     public void canAddMunrosToList(){
         munroList.addMunro(munro1);
         assertEquals(1, munroList.getMunroList().size());
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        assertEquals(5, munroList.getListSize());
     }
 
 }
