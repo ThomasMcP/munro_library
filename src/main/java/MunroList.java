@@ -39,6 +39,14 @@ public class MunroList {
         munroList.sort(Comparator.comparing(Munro::getHeight).reversed());
     }
 
+    public void sortNameDescending() {
+        munroList.sort(Comparator.comparing(Munro::getName).reversed());
+    }
+
+    public void sortNameAscending() {
+        munroList.sort(Comparator.comparing(Munro::getName));
+    }
+
     public ArrayList<Munro> limitToTenResults() {
         ArrayList<Munro> limitedResults = new ArrayList<>();
         for (Munro munro: munroList) {
