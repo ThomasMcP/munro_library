@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class MunroListTest {
@@ -67,7 +69,24 @@ public class MunroListTest {
         assertEquals(0, munroList.getIndexOf(munro5));
     }
 
-    
+    @Test
+    public void canSortHeightAscendinglimited(){
+        for (int i = 0; i < 5; i++) {
+            munroList.addMunro(munro1);
+            munroList.addMunro(munro2);
+            munroList.addMunro(munro3);
+            munroList.addMunro(munro4);
+            munroList.addMunro(munro5);
+            munroList.addMunro(munro6);
+        }
+
+//        as munros have been reused, munro5 will appear 5 times and munro6 will also appear 5 times.
+
+        munroList.sortHeightAscending();
+        assertEquals(30, munroList.getListSize());
+        assertEquals(10, munroList.limitToTenResults().size());
+    }
+
 
     @Test
     public void canLimitResultsToTop10(){
@@ -82,6 +101,18 @@ public class MunroListTest {
         assertEquals(30, munroList.getListSize());
         assertEquals(0, munroList.getIndexOf(munro1));
         assertEquals(10, munroList.limitToTenResults().size());
+    }
+
+    @Test
+    public void canSetMinimumHeight(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        assertEquals(6, munroList.getListSize());
+        assertEquals(2, munroList.getMunrosAboveLimit(1000).size());
     }
 
 

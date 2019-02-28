@@ -48,6 +48,16 @@ public class MunroList {
         }
         return limitedResults;
     }
+
+    public ArrayList<Munro> getMunrosAboveLimit(int heightLimit) {
+        ArrayList<Munro> munrosOverLimit = new ArrayList<>();
+        for (Munro munro: munroList){
+            if (munro.getHeight() >= heightLimit){
+                munrosOverLimit.add(munro);
+            }
+        }
+        return munrosOverLimit;
+    }
 }
 
 
