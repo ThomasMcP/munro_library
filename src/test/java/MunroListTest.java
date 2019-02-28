@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class MunroListTest {
 
@@ -17,6 +20,11 @@ public class MunroListTest {
         munro4 = new Munro("Ben Lomond", 974, "MUN", "NN773308");
         munro5 = new Munro("Ben More", 1174, "MUN", "NN773308");
         munroList = new MunroList();
+    }
+
+    @Test
+    public void munroListIsIntiallyEmpty(){
+        assertEquals(0, munroList.getMunroList().size());
     }
 
 }

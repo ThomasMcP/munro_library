@@ -15,5 +15,6 @@ public class MunroList {
     public void setMunroList(ArrayList<Munro> munroList) {
         this.munroList = munroList;
     }
+}
 
 
