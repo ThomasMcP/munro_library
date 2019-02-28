@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class MunroList {
 
@@ -22,6 +24,14 @@ public class MunroList {
 
     public int getListSize(){
         return munroList.size();
+    }
+
+    public int getIndexOf(Munro munro) {
+        return munroList.indexOf(munro);
+    }
+
+    public void sortHeightAscending() {
+        munroList.sort(Comparator.comparing(Munro::getHeight));
     }
 }
 

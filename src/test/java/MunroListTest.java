@@ -10,6 +10,7 @@ public class MunroListTest {
     Munro munro3;
     Munro munro4;
     Munro munro5;
+    Munro munro6;
     MunroList munroList;
 
     @Before
@@ -19,6 +20,8 @@ public class MunroListTest {
         munro3 = new Munro("Stuc a' Chroin", 975, "MUN", "NN773308");
         munro4 = new Munro("Ben Lomond", 974, "MUN", "NN773308");
         munro5 = new Munro("Ben More", 1174, "MUN", "NN773308");
+        munro6 = new Munro("Stob Binnein - Stob Coire an Lochain", 1068, "TOP", "NN438220");
+
         munroList = new MunroList();
     }
 
@@ -37,5 +40,20 @@ public class MunroListTest {
         munroList.addMunro(munro5);
         assertEquals(5, munroList.getListSize());
     }
+
+    @Test
+    public void canSortMunrosByHeightAscending(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        munroList.sortHeightAscending();
+        assertEquals(5, munroList.getIndexOf(munro5) );
+        assertEquals(0, munroList.getIndexOf(munro1) );
+    }
+
+
 
 }
