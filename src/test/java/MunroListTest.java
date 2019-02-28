@@ -27,4 +27,10 @@ public class MunroListTest {
         assertEquals(0, munroList.getMunroList().size());
     }
 
+    @Test
+    public void canAddMunrosToList(){
+        munroList.addMunro(munro1);
+        assertEquals(1, munroList.getMunroList().size());
+    }
+
 }

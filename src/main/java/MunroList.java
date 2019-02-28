@@ -15,6 +15,14 @@ public class MunroList {
     public void setMunroList(ArrayList<Munro> munroList) {
         this.munroList = munroList;
     }
+
+    public void addMunro(Munro munro) {
+        munroList.add(munro);
+    }
+
+    public int getListSize(){
+        munroList.size();
+    }
 }
 
 
