@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f37d00-a440-4611-9b99-124944bbe0b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MunroList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MunroList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MunroListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MunroListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,7 +45,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MunroList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="88" column="96" selection-start-line="88" selection-start-column="96" selection-end-line="88" selection-end-column="96" />
+              <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -481,6 +481,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MunroTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MunroListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MunroList.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -547,7 +548,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/workspace.xml&#10;true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551396899144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551397053897" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -716,9 +717,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6356" />
@@ -793,7 +791,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MunroList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="88" column="96" selection-start-line="88" selection-start-column="96" selection-end-line="88" selection-end-column="96" />
+          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
@@ -819,6 +817,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

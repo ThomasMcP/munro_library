@@ -21,3 +21,5 @@
 out/
 target/
 .idea_modules/
+src/main/resources/
+src/test/resources/

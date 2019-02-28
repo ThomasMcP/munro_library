@@ -86,7 +86,7 @@ public class MunroList {
     }
 
     public ArrayList getMunrosBetweenMaxAndMinHeights(int min, int max) {
-//      Added message error for the condition below, wasn't quite sure how else to handle this.  
+//      Added message error for the condition below, wasn't quite sure how else to handle this.
         if (min >= max || max <= min){
             System.out.println("Invalid Search. Max height should be greater than min height AND Min height should be less than Max height.");
             return this.getMunroList();
