@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class MunroTest {
 
@@ -9,7 +12,12 @@ public class MunroTest {
         munro = new Munro("Ben Chonzie", 931, "MUN", "NN773308");
     }
 
-    
+    @Test
+    public void munroHasName(){
+        assertEquals("Ben Chonzie", munro.getName());
+    }
+
+
 
 
 }
