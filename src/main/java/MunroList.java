@@ -47,6 +47,14 @@ public class MunroList {
         munroList.sort(Comparator.comparing(Munro::getName));
     }
 
+    public void swapNumbers(int a, int b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+
+    }
+
     public ArrayList<Munro> limitToTenResults() {
         ArrayList<Munro> limitedResults = new ArrayList<>();
         for (Munro munro: munroList) {
@@ -78,12 +86,17 @@ public class MunroList {
     }
 
     public ArrayList getMunrosBetweenMaxAndMinHeights(int min, int max) {
-        ArrayList selectedMunros = new ArrayList();
-        for (Munro munro : munroList){
-            if (munro.getHeight() >= min && munro.getHeight() <= max) {
-                selectedMunros.add(munro);
-            }
+//      Added message error for the condition below, wasn't quite sure how else to handle this.  
+        if (min >= max || max <= min){
+            System.out.println("Invalid Search. Max height should be greater than min height AND Min height should be less than Max height.");
+            return this.getMunroList();
         }
+            ArrayList selectedMunros = new ArrayList();
+            for (Munro munro : munroList){
+                if (munro.getHeight() >= min && munro.getHeight() <= max) {
+                    selectedMunros.add(munro);
+                }
+            }
         return selectedMunros;
     }
 

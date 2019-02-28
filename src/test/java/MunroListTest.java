@@ -183,6 +183,18 @@ public class MunroListTest {
     }
 
     @Test
+    public void canHandleWrongInputValuesForMaxAndMinHeight(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+
+        ArrayList selected = munroList.getMunrosBetweenMaxAndMinHeights(1000, 900);
+        assertEquals(5, selected.size());
+    }
+
+    @Test
     public void canGetMunrosOfSpecificType(){
         munroList.addMunro(munro1);
         munroList.addMunro(munro2);
