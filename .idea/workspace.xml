@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01f37d00-a440-4611-9b99-124944bbe0b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/MunroList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MunroList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MunroListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MunroListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="01f37d00-a440-4611-9b99-124944bbe0b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -38,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3293" />
+          <entry key="JAVA" value="3419" />
         </counts>
       </usages-collector>
     </session>
@@ -99,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MunroList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="467">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -127,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MunroListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            <state relative-caret-position="278">
+              <caret line="140" column="47" lean-forward="true" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
@@ -543,7 +540,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/workspace.xml&#10;true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551392182623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551392497409" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -561,7 +558,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MunroListTest.defaultIfMunroTypeNotGiven">
+  <component name="RunManager" selected="JUnit.MunroListTest.canGetMunrosOfSpecificType">
     <configuration name="MunroListTest.canGetMunrosOfSpecificType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="munro-library_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -621,8 +618,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MunroListTest.defaultIfMunroTypeNotGiven" />
         <item itemvalue="JUnit.MunroListTest.canGetMunrosOfSpecificType" />
+        <item itemvalue="JUnit.MunroListTest.defaultIfMunroTypeNotGiven" />
         <item itemvalue="JUnit.MunroListTest.canSetMinimumHeight" />
         <item itemvalue="JUnit.MunroListTest.canSortHeightAscendinglimited" />
         <item itemvalue="JUnit.MunroListTest.canLimitResultsToTop10" />
@@ -643,18 +640,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MunroListTest_canSortHeightAscendinglimited - 2019.02.28 at 16h 12m 42s.xml">
-      <configuration name="MunroListTest.canSortHeightAscendinglimited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MunroListTest_canSortHeightAscendinglimited - 2019.02.28 at 16h 12m 57s.xml">
-      <configuration name="MunroListTest.canSortHeightAscendinglimited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MunroListTest_canSortHeightAscendinglimited - 2019.02.28 at 16h 14m 23s.xml">
-      <configuration name="MunroListTest.canSortHeightAscendinglimited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MunroListTest_canSetMinimumHeight - 2019.02.28 at 16h 20m 49s.xml">
-      <configuration name="MunroListTest.canSetMinimumHeight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MunroListTest_canSetMinimumHeight - 2019.02.28 at 16h 21m 04s.xml">
       <configuration name="MunroListTest.canSetMinimumHeight" configurationId="JUnit" />
     </history-entry>
@@ -672,6 +657,18 @@
     </history-entry>
     <history-entry file="MunroListTest_canGetMunrosOfSpecificType - 2019.02.28 at 22h 00m 24s.xml">
       <configuration name="MunroListTest.canGetMunrosOfSpecificType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MunroListTest_canGetMunrosOfSpecificType - 2019.02.28 at 22h 14m 12s.xml">
+      <configuration name="MunroListTest.canGetMunrosOfSpecificType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MunroListTest_defaultIfMunroTypeNotGiven - 2019.02.28 at 22h 15m 26s.xml">
+      <configuration name="MunroListTest.defaultIfMunroTypeNotGiven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MunroListTest_defaultIfMunroTypeNotGiven - 2019.02.28 at 22h 15m 50s.xml">
+      <configuration name="MunroListTest.defaultIfMunroTypeNotGiven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MunroListTest_defaultIfMunroTypeNotGiven - 2019.02.28 at 22h 16m 25s.xml">
+      <configuration name="MunroListTest.defaultIfMunroTypeNotGiven" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -729,26 +726,6 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MunroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Munro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -774,10 +751,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MunroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MunroListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="140" column="47" lean-forward="true" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MunroList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="467">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
@@ -796,18 +805,6 @@
             <element signature="e#755#756#0" expanded="true" />
             <element signature="e#797#798#0" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MunroListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
           </folding>
         </state>
       </provider>

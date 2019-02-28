@@ -24,6 +24,7 @@ public class MunroListTest {
         munro4 = new Munro("Ben Lomond", 974, "MUN", "NN773308");
         munro5 = new Munro("Ben More", 1174, "MUN", "NN773308");
         munro6 = new Munro("Stob Binnein - Stob Coire an Lochain", 1068, "TOP", "NN438220");
+        munro7 = new Munro("Stob Binnein - Stob Coire an Lochain", 1068, "", "NN438220");
         munroList = new MunroList();
     }
 
@@ -123,6 +124,8 @@ public class MunroListTest {
         munroList.addMunro(munro4);
         munroList.addMunro(munro5);
         munroList.addMunro(munro6);
+//        added munro with empty type value for test
+        munroList.addMunro(munro7);
         ArrayList resultTop = munroList.getTypeOfMunros("TOP");
         assertEquals(1, resultTop.size());
         ArrayList resultMun = munroList.getTypeOfMunros("MUN");
