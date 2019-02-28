@@ -117,6 +117,17 @@ public class MunroListTest {
     }
 
     @Test
+    public void canSetMaximumHeight(){
+        munroList.addMunro(munro1);
+        munroList.addMunro(munro2);
+        munroList.addMunro(munro3);
+        munroList.addMunro(munro4);
+        munroList.addMunro(munro5);
+        munroList.addMunro(munro6);
+        assertEquals(4, munroList.getMunrosBelowLimit(1000).size());
+    }
+
+    @Test
     public void canGetMunrosOfSpecificType(){
         munroList.addMunro(munro1);
         munroList.addMunro(munro2);

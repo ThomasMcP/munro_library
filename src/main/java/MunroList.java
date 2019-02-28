@@ -59,6 +59,16 @@ public class MunroList {
         return munrosOverLimit;
     }
 
+    public ArrayList<Munro> getMunrosBelowLimit(int heightLimit) {
+        ArrayList<Munro> munrosUnderLimit = new ArrayList();
+        for (Munro munro : munroList) {
+            if (munro.getHeight() <= heightLimit) {
+                munrosUnderLimit.add(munro);
+            }
+        }
+        return munrosUnderLimit;
+    }
+
     public ArrayList<Munro> getTypeOfMunros(String type) {
 //        if condition handles empty string input and defaults to MUN.
         if (type == "") {
